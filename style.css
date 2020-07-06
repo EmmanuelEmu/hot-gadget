@@ -1,0 +1,62 @@
+.nav-link{
+    font-weight: 700;
+    color:lightcoral;
+    text-indent: 10px;
+}
+.container{
+    margin-bottom: 40px;
+}
+.carousel-inner{
+    border-radius: 10px;
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 10vh;
+    background-position: center;
+}
+.carousel-item{
+    padding: 10px 20px;
+}
+.carousel-item p{
+    color: lightcoral;
+    width: 80%;
+}
+.button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
+.carousel-part{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 18vh;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.header h6{
+    color: orange;
+}
+.card-1{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+.card img{
+    padding: 30px 10px;
+}
+.price{
+    padding-bottom: 20px;
+}
+.carousel-indicators li{
+    background-image: linear-gradient(90deg,orange 30% ,yellow 100%);
+    height: 5px;
+    border-radius: 10px;
+}
