@@ -47,7 +47,8 @@
 }
 .card{
     border: none;
-    box-shadow: 10px 10px 15px lightgrey;
+    box-shadow: 8px 8px 25px lightgrey;
+    border-radius: 20px;
 }
 .card img{
     padding: 30px 10px;
@@ -56,7 +57,52 @@
     padding-bottom: 20px;
 }
 .carousel-indicators li{
-    background-image: linear-gradient(90deg,orange 30% ,yellow 100%);
-    height: 5px;
+    background-color: orange;
+    height:8px;
+    border-radius: 12px;
+    width: 40px;
+}
+.category-header{
+    margin-top: 120px;
+    position: relative;
+    text-align: center;
+}
+.category-header::after{
+    content:'';
+    height: 8px;
+    width: 8%;
+    background-image: linear-gradient(90deg,#FFD019 40%, #FF9C35 60%);
+    position: absolute;
+    left:calc(46.3%);
+    bottom:-15px;
+    border-radius: 5px;
+}
+.category img{
+    width: 100%;
+}
+#image1 , #image2 , #image3{
+    padding: 20px 20px;
+    border:none;
+    margin: 30px 35px;
+    box-shadow: 10px 10px 20px lightgrey;
     border-radius: 10px;
+}
+.category{
+    margin-top: 70px;
+}
+small{
+    text-align: center;
+}
+.orange-bg{
+    background-image: url("images/learn-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input{
+    margin:20px 0px; 
+    border-radius: 5px;
+}
+.input:hover{
+    width: 200px;
+    height: 50px;
 }
